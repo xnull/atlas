@@ -1,0 +1,19 @@
+POI Service
+
+Your task is to design and create POI service and REST API using either Node.js or Java.
+
+In navigation systems it’s usual to search for interesting objects near your current location.
+POI (point of interest) has geocoordinates, floor number and various other parameters.
+Your task is to decide the other features of a POI (two at least).
+The POIs can be queried using these features.
+Examples of POIs include: your friend’s current location (dynamic) and the nearest elevator (static).
+
+- A REST API for adding POIs. Adding a new POI is computationally expensive operation (for sake of the task)
+  and should be done asynchronously, ie. out of request-response loop.
+- A REST API for querying POIs using location and optionally other query parameters.
+- Document the data models exposed through the REST API and the API itself.
+- A REST API should use HTTP Basic Authentication
+- Justify your technology choices.
+
+Please store the code to Github or Bitbucket (or similar) and provide us access to the repo.
+You should also include instructions how to run the application.

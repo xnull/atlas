@@ -11,6 +11,5 @@ Neo4j is used as a geo spatial database. It provides geo search and it's embedde
 To document api I use swagger - it's easy to use, very powerful. Endpoints:
  - http://localhost:8080/swagger.json - json documentation of the application api.
  - http://localhost:8080/system/ui/index.html - swagger UI, management web UI.
-Basic auth^ user: admin, pass: admin
 
 You can run an application by command: ./gradlew bootRun
